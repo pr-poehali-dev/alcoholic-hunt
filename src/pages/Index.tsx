@@ -6,32 +6,32 @@ import Icon from "@/components/ui/icon";
 export default function Index() {
   const competencies = [
     {
-      icon: "Code2",
-      title: "Frontend Разработка",
-      description: "React, TypeScript, современные CSS. Люблю делать красивые интерфейсы"
+      icon: "Bed",
+      title: "Профессиональный сон",
+      description: "Могу спать 12+ часов в сутки. Эксперт по откладыванию будильника"
     },
     {
-      icon: "Smartphone",
-      title: "Мобильная разработка",
-      description: "React Native, Flutter. Приложения, которыми удобно пользоваться"
+      icon: "Car",
+      title: "Автомобильные мечты",
+      description: "Porsche 911 GT3 RS - единственная вещь, которая меня реально заводит"
     },
     {
-      icon: "Zap",
-      title: "Продуктовый подход",
-      description: "Не просто код, а решения конкретных задач. UX/UI как основа"
+      icon: "Coffee",
+      title: "Потребление контента",
+      description: "YouTube, сериалы, соцсети. Могу смотреть 8 часов подряд без перерыва"
     },
     {
-      icon: "Users",
-      title: "Командная работа",
-      description: "Могу как в соло, так и руководить командой. Обязательно с code review"
+      icon: "Gamepad2",
+      title: "Прокрастинация про-лвл",
+      description: "Мастер откладывания дел на потом. Моя мантра: 'завтра обязательно'"
     }
   ];
 
   const achievements = [
-    "Построил 5 продуктов, которыми люди реально пользуются",
-    "Могу объяснить сложные вещи простыми словами",
-    "Пишу код, который легко поддерживать",
-    "Никогда не срываю дедлайны (почти никогда)"
+    "Проспал всю пандемию и почти не заметил",
+    "Умею найти оправдание любому ничегонеделанию",
+    "Могу 3 дня подряд смотреть сериалы",
+    "Настоящий эксперт по доставкам еды на дом"
   ];
 
   return (
@@ -48,29 +48,29 @@ export default function Index() {
             <div className="space-y-8">
               <div className="space-y-4">
                 <Badge variant="outline" className="text-accent border-accent/30 bg-accent/10 font-roboto">
-                  РАЗРАБОТЧИК
+                  ПРОФЕССИОНАЛ ПО ЖИЗНИ
                 </Badge>
                 <h1 className="text-6xl lg:text-7xl font-black font-orbitron bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent leading-tight">
-                  КОД
+                  НИХУЯ
                   <br />
-                  И КОФЕ
+                  НЕ ДЕЛАю
                 </h1>
                 <div className="h-1 w-24 bg-gradient-to-r from-primary to-accent rounded-full" />
               </div>
               
               <p className="text-xl text-muted-foreground font-roboto leading-relaxed">
-                Пишу код, который работает. Создаю продукты, которыми удобно пользоваться. 
-                Люблю чистый код, командную работу и кофе. Не люблю легаси и костыли. 
-                Работаю как в команде, так и соло.
+                Профессиональный расслабон и эксперт по ничегонеделанию. 
+                Моя жизненная философия: зачем делать что-то сейчас, если можно отложить на потом? 
+                Люблю машины, не люблю обязательства.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-roboto font-semibold px-8 py-6 text-lg">
-      Написать мне
+      Написать о жизни
                   <Icon name="ArrowRight" size={20} className="ml-2" />
                 </Button>
                 <Button size="lg" variant="outline" className="font-roboto font-semibold px-8 py-6 text-lg border-2">
-                  Посмотреть работы
+                  Посмотреть мои мемы
                   <Icon name="Download" size={20} className="ml-2" />
                 </Button>
               </div>
@@ -80,8 +80,8 @@ export default function Index() {
               <div className="aspect-square rounded-3xl bg-gradient-to-br from-primary/20 via-accent/20 to-secondary/20 p-1">
                 <div className="w-full h-full rounded-3xl bg-gradient-to-br from-background to-muted flex items-center justify-center">
                   <img 
-                    src="/img/3b254183-001a-4cd6-806d-ca5794c38104.jpg" 
-                    alt="Моё фото в обычной среде" 
+                    src="/img/cc3d8aa7-7821-4c2f-94e1-0eaa3eb978fd.jpg" 
+                    alt="Porsche 911 GT3 RS - моя мечта и смысл жизни" 
                     className="w-full h-full object-cover rounded-3xl"
                   />
                 </div>
@@ -99,7 +99,7 @@ export default function Index() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold font-orbitron text-foreground mb-4">
-              ЧТО Я УМЕЮ
+              МОИ СУПЕРСПОСОБНОСТИ
             </h2>
             <div className="h-1 w-16 bg-accent mx-auto rounded-full" />
           </div>
@@ -129,7 +129,7 @@ export default function Index() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold font-orbitron text-foreground mb-4">
-              ПОЧЕМУ МЕНЯ СТОИТ НАНЯТЬ
+              МОИ ЖИЗНЕННЫЕ ДОСТИЖЕНИЯ
             </h2>
             <div className="h-1 w-16 bg-accent mx-auto rounded-full" />
           </div>
@@ -166,7 +166,7 @@ export default function Index() {
                   <Icon name="Mail" size={32} className="text-primary" />
                 </div>
                 <h3 className="font-orbitron font-bold text-foreground">Email</h3>
-                <p className="font-roboto text-muted-foreground">dev@example.com</p>
+                <p className="font-roboto text-muted-foreground">nichegonedelayu@mail.ru</p>
               </CardContent>
             </Card>
             
@@ -186,13 +186,13 @@ export default function Index() {
                   <Icon name="MapPin" size={32} className="text-primary" />
                 </div>
                 <h3 className="font-orbitron font-bold text-foreground">Адрес</h3>
-                <p className="font-roboto text-muted-foreground">Там, где есть интернет</p>
+                <p className="font-roboto text-muted-foreground">В кровати или на диване</p>
               </CardContent>
             </Card>
           </div>
           
           <Button size="lg" className="bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-white font-roboto font-semibold px-12 py-6 text-lg">
-            Давай обсудим
+            Поучить ничегонеделанию
             <Icon name="Calendar" size={20} className="ml-2" />
           </Button>
         </div>
@@ -204,11 +204,11 @@ export default function Index() {
           <div className="flex items-center justify-center gap-3 mb-6">
             <Icon name="Shield" size={32} className="text-primary" />
             <h3 className="text-2xl font-bold font-orbitron text-foreground">
-              КОД & КОФЕ
+              НИЧЕГО & ПОРШЕ
             </h3>
           </div>
           <p className="text-muted-foreground font-roboto mb-6">
-            Просто пишу хороший код и пью много кофе
+            Просто живу и мечтаю о Porsche 911 GT3 RS
           </p>
           <div className="flex justify-center gap-6">
             <Button variant="ghost" size="sm" className="hover:text-primary">
