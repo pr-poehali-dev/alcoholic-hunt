@@ -7,31 +7,31 @@ export default function Index() {
   const competencies = [
     {
       icon: "Code2",
-      title: "Full-Stack разработка",
-      description: "React, Node.js, Python. Пишу код, который работает с первого раза"
+      title: "Frontend Разработка",
+      description: "React, TypeScript, современные CSS. Люблю делать красивые интерфейсы"
     },
     {
-      icon: "Terminal",
-      title: "DevOps & Инфраструктура",
-      description: "Docker, Kubernetes, AWS. Автоматизирую всё, что можно автоматизировать"
+      icon: "Smartphone",
+      title: "Мобильная разработка",
+      description: "React Native, Flutter. Приложения, которыми удобно пользоваться"
     },
     {
-      icon: "Database",
-      title: "Базы данных & Аналитика",
-      description: "PostgreSQL, MongoDB, анализ данных. Понимаю, как заставить данные говорить"
+      icon: "Zap",
+      title: "Продуктовый подход",
+      description: "Не просто код, а решения конкретных задач. UX/UI как основа"
     },
     {
-      icon: "Shield",
-      title: "Кибербезопасность",
-      description: "Pentesting, анализ уязвимостей. Нашодить дыры - моя профессия"
+      icon: "Users",
+      title: "Командная работа",
+      description: "Могу как в соло, так и руководить командой. Обязательно с code review"
     }
   ];
 
   const achievements = [
-    "7+ лет коммерческой разработки",
-    "Запустил 15+ проектов от идеи до продаж",
-    "Нашел 100+ критических уязвимостей",
-    "Ментор для 30+ девелоперов"
+    "Построил 5 продуктов, которыми люди реально пользуются",
+    "Могу объяснить сложные вещи простыми словами",
+    "Пишу код, который легко поддерживать",
+    "Никогда не срываю дедлайны (почти никогда)"
   ];
 
   return (
@@ -48,29 +48,29 @@ export default function Index() {
             <div className="space-y-8">
               <div className="space-y-4">
                 <Badge variant="outline" className="text-accent border-accent/30 bg-accent/10 font-roboto">
-                  SENIOR DEVELOPER
+                  РАЗРАБОТЧИК
                 </Badge>
-                <h1 className="text-6xl lg:text-7xl font-black font-orbitron text-primary leading-tight">
-                  DIGITAL
+                <h1 className="text-6xl lg:text-7xl font-black font-orbitron bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent leading-tight">
+                  КОД
                   <br />
-                  ARCHITECT
+                  И КОФЕ
                 </h1>
                 <div className="h-1 w-24 bg-gradient-to-r from-primary to-accent rounded-full" />
               </div>
               
               <p className="text-xl text-muted-foreground font-roboto leading-relaxed">
-                Опытный разработчик с фокусом на создании масштабируемых продуктов 
-                и решении сложных технических задач. Превращаю идеи в рабочие продукты, 
-                которые решают реальные бизнес-задачи.
+                Пишу код, который работает. Создаю продукты, которыми удобно пользоваться. 
+                Люблю чистый код, командную работу и кофе. Не люблю легаси и костыли. 
+                Работаю как в команде, так и соло.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-roboto font-semibold px-8 py-6 text-lg">
-                  Обсудить проект
+      Написать мне
                   <Icon name="ArrowRight" size={20} className="ml-2" />
                 </Button>
                 <Button size="lg" variant="outline" className="font-roboto font-semibold px-8 py-6 text-lg border-2">
-                  Посмотреть портфолио
+                  Посмотреть работы
                   <Icon name="Download" size={20} className="ml-2" />
                 </Button>
               </div>
@@ -80,8 +80,8 @@ export default function Index() {
               <div className="aspect-square rounded-3xl bg-gradient-to-br from-primary/20 via-accent/20 to-secondary/20 p-1">
                 <div className="w-full h-full rounded-3xl bg-gradient-to-br from-background to-muted flex items-center justify-center">
                   <img 
-                    src="/img/058133d9-4bf5-4f29-b2ba-5bf28d78de54.jpg" 
-                    alt="Профессиональное фото" 
+                    src="/img/3b254183-001a-4cd6-806d-ca5794c38104.jpg" 
+                    alt="Моё фото в обычной среде" 
                     className="w-full h-full object-cover rounded-3xl"
                   />
                 </div>
@@ -99,7 +99,7 @@ export default function Index() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold font-orbitron text-foreground mb-4">
-              ОБЛАСТИ ЭКСПЕРТИЗЫ
+              ЧТО Я УМЕЮ
             </h2>
             <div className="h-1 w-16 bg-accent mx-auto rounded-full" />
           </div>
@@ -129,7 +129,7 @@ export default function Index() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold font-orbitron text-foreground mb-4">
-              ОПЫТ И ДОСТИЖЕНИЯ
+              ПОЧЕМУ МЕНЯ СТОИТ НАНЯТЬ
             </h2>
             <div className="h-1 w-16 bg-accent mx-auto rounded-full" />
           </div>
@@ -166,7 +166,7 @@ export default function Index() {
                   <Icon name="Mail" size={32} className="text-primary" />
                 </div>
                 <h3 className="font-orbitron font-bold text-foreground">Email</h3>
-                <p className="font-roboto text-muted-foreground">dev.specialist@proton.me</p>
+                <p className="font-roboto text-muted-foreground">dev@example.com</p>
               </CardContent>
             </Card>
             
@@ -186,13 +186,13 @@ export default function Index() {
                   <Icon name="MapPin" size={32} className="text-primary" />
                 </div>
                 <h3 className="font-orbitron font-bold text-foreground">Адрес</h3>
-                <p className="font-roboto text-muted-foreground">Москва, Россия</p>
+                <p className="font-roboto text-muted-foreground">Там, где есть интернет</p>
               </CardContent>
             </Card>
           </div>
           
           <Button size="lg" className="bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-white font-roboto font-semibold px-12 py-6 text-lg">
-            Запланировать консультацию
+            Давай обсудим
             <Icon name="Calendar" size={20} className="ml-2" />
           </Button>
         </div>
@@ -204,11 +204,11 @@ export default function Index() {
           <div className="flex items-center justify-center gap-3 mb-6">
             <Icon name="Shield" size={32} className="text-primary" />
             <h3 className="text-2xl font-bold font-orbitron text-foreground">
-              DIGITAL SOLUTIONS
+              КОД & КОФЕ
             </h3>
           </div>
           <p className="text-muted-foreground font-roboto mb-6">
-            Профессиональная разработка и консалтинг
+            Просто пишу хороший код и пью много кофе
           </p>
           <div className="flex justify-center gap-6">
             <Button variant="ghost" size="sm" className="hover:text-primary">
