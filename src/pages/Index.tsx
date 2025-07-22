@@ -6,32 +6,32 @@ import Icon from "@/components/ui/icon";
 export default function Index() {
   const competencies = [
     {
-      icon: "Coffee",
-      title: "Прокрастинация",
-      description: "Мастерски откладываю дела на завтра уже 5 лет подряд"
+      icon: "Code2",
+      title: "Full-Stack разработка",
+      description: "React, Node.js, Python. Пишу код, который работает с первого раза"
     },
     {
-      icon: "Pizza",
-      title: "Заказ пиццы",
-      description: "Знаю все меню доставок в радиусе 10км от дома"
+      icon: "Terminal",
+      title: "DevOps & Инфраструктура",
+      description: "Docker, Kubernetes, AWS. Автоматизирую всё, что можно автоматизировать"
     },
     {
-      icon: "Gamepad2",
-      title: "Профессиональный геймер",
-      description: "Побеждаю школьников в онлайн играх (иногда)"
+      icon: "Database",
+      title: "Базы данных & Аналитика",
+      description: "PostgreSQL, MongoDB, анализ данных. Понимаю, как заставить данные говорить"
     },
     {
-      icon: "Cat",
-      title: "Котовод",
-      description: "Эксперт по интерпретации мяуканья и требований котов"
+      icon: "Shield",
+      title: "Кибербезопасность",
+      description: "Pentesting, анализ уязвимостей. Нашодить дыры - моя профессия"
     }
   ];
 
   const achievements = [
-    "Просмотрел все сериалы на Netflix за месяц",
-    "Выиграл в споре в интернете (один раз)",
-    "Собрал IKEA мебель без инструкции",
-    "Дожил до понедельника без кофе"
+    "7+ лет коммерческой разработки",
+    "Запустил 15+ проектов от идеи до продаж",
+    "Нашел 100+ критических уязвимостей",
+    "Ментор для 30+ девелоперов"
   ];
 
   return (
@@ -48,29 +48,29 @@ export default function Index() {
             <div className="space-y-8">
               <div className="space-y-4">
                 <Badge variant="outline" className="text-accent border-accent/30 bg-accent/10 font-roboto">
-                  НЕ НАСТОЯЩИЙ ГУНК 😎
+                  SENIOR DEVELOPER
                 </Badge>
-                <h1 className="text-6xl lg:text-7xl font-black font-orbitron bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent leading-tight">
-                  МЕМНЫЙ
+                <h1 className="text-6xl lg:text-7xl font-black font-orbitron text-primary leading-tight">
+                  DIGITAL
                   <br />
-                  ХАКЕР
+                  ARCHITECT
                 </h1>
                 <div className="h-1 w-24 bg-gradient-to-r from-primary to-accent rounded-full" />
               </div>
               
               <p className="text-xl text-muted-foreground font-roboto leading-relaxed">
-                Самопровозглашенный IT-гуру и профессиональный диванный аналитик. 
-                Специализируюсь на создании мемов и поиске багов в чужом коде. 
-                Работаю из дома в пижаме и считаю это высшим достижением.
+                Опытный разработчик с фокусом на создании масштабируемых продуктов 
+                и решении сложных технических задач. Превращаю идеи в рабочие продукты, 
+                которые решают реальные бизнес-задачи.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-roboto font-semibold px-8 py-6 text-lg">
-                  Написать в телегу
+                  Обсудить проект
                   <Icon name="ArrowRight" size={20} className="ml-2" />
                 </Button>
                 <Button size="lg" variant="outline" className="font-roboto font-semibold px-8 py-6 text-lg border-2">
-                  Скачать мемы
+                  Посмотреть портфолио
                   <Icon name="Download" size={20} className="ml-2" />
                 </Button>
               </div>
@@ -80,8 +80,8 @@ export default function Index() {
               <div className="aspect-square rounded-3xl bg-gradient-to-br from-primary/20 via-accent/20 to-secondary/20 p-1">
                 <div className="w-full h-full rounded-3xl bg-gradient-to-br from-background to-muted flex items-center justify-center">
                   <img 
-                    src="/img/e52fb930-62f4-473d-a2c4-d4395181004d.jpg" 
-                    alt="Я в своей естественной среде обитания" 
+                    src="/img/058133d9-4bf5-4f29-b2ba-5bf28d78de54.jpg" 
+                    alt="Профессиональное фото" 
                     className="w-full h-full object-cover rounded-3xl"
                   />
                 </div>
@@ -99,7 +99,7 @@ export default function Index() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold font-orbitron text-foreground mb-4">
-              МОИ СУПЕРСИЛЫ
+              ОБЛАСТИ ЭКСПЕРТИЗЫ
             </h2>
             <div className="h-1 w-16 bg-accent mx-auto rounded-full" />
           </div>
@@ -129,7 +129,7 @@ export default function Index() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold font-orbitron text-foreground mb-4">
-              ЖИЗНЕННЫЕ ПОБЕДЫ
+              ОПЫТ И ДОСТИЖЕНИЯ
             </h2>
             <div className="h-1 w-16 bg-accent mx-auto rounded-full" />
           </div>
@@ -166,7 +166,7 @@ export default function Index() {
                   <Icon name="Mail" size={32} className="text-primary" />
                 </div>
                 <h3 className="font-orbitron font-bold text-foreground">Email</h3>
-                <p className="font-roboto text-muted-foreground">memehacker@yandex.ru</p>
+                <p className="font-roboto text-muted-foreground">dev.specialist@proton.me</p>
               </CardContent>
             </Card>
             
@@ -186,13 +186,13 @@ export default function Index() {
                   <Icon name="MapPin" size={32} className="text-primary" />
                 </div>
                 <h3 className="font-orbitron font-bold text-foreground">Адрес</h3>
-                <p className="font-roboto text-muted-foreground">Где-то в России, дома</p>
+                <p className="font-roboto text-muted-foreground">Москва, Россия</p>
               </CardContent>
             </Card>
           </div>
           
           <Button size="lg" className="bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-white font-roboto font-semibold px-12 py-6 text-lg">
-            Позвать в Discord
+            Запланировать консультацию
             <Icon name="Calendar" size={20} className="ml-2" />
           </Button>
         </div>
@@ -204,11 +204,11 @@ export default function Index() {
           <div className="flex items-center justify-center gap-3 mb-6">
             <Icon name="Shield" size={32} className="text-primary" />
             <h3 className="text-2xl font-bold font-orbitron text-foreground">
-              МЕМНАЯ ИМПЕРИЯ
+              DIGITAL SOLUTIONS
             </h3>
           </div>
           <p className="text-muted-foreground font-roboto mb-6">
-            Создаю мемы и пишу код. Иногда даже работает! 🚀
+            Профессиональная разработка и консалтинг
           </p>
           <div className="flex justify-center gap-6">
             <Button variant="ghost" size="sm" className="hover:text-primary">
